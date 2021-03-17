@@ -1,0 +1,62 @@
+/* * {
+    background-image: url("./pexels.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    background-attachment: fixed;
+} */
+body {
+    background-image: url("city.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    height: 100%;
+}
+h1 {
+    font-family: cursive;
+    font-size: xx-large;
+    font-style: oblique;
+    color: black;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    text-shadow: 5px 5px grey;
+}
+h3 {
+    font-family: cursive;
+    font-size: xx-large;
+    font-style: oblique;
+    color: black;
+    text-align: center;
+}
+ul, li, a {
+    list-style: none;
+    font-family: cursive;
+    text-align: center;
+    text-decoration: palevioletred;
+    text-transform: uppercase;
+    text-shadow: purple;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.l1 {
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center
+}
+a:link, a:visited {
+    background-color: #33e0d8;
+    color: rgb(8, 25, 175);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(238, 133, 34);
+  }
