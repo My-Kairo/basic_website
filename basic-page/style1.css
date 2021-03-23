@@ -49,7 +49,7 @@ h2 {
 }
 .box-1 {
     float: left;
-    width: 50%;
+    width: 100%;
 }
 .language {
     /* background-color: lightpink; */
@@ -86,10 +86,10 @@ td {
     text-align: center;
 }
 .places {
-    display: flex;
+    /* display: flex;
     /* background-color:yellow; */
-    overflow: hidden;
-    position: relative;
+    /* overflow: hidden; */
+    /* position: relative;*/
     
 }
 .clearfix {
@@ -115,12 +115,12 @@ h4 {
     padding-top: 15px;
 }
 ul, li {
-    float: left;
+    /* float: left; */
 }
 .castle {
     float: right;
-    padding-right: 35px;
-    padding-bottom: 65px;
+    padding-right: 25px;
+    padding-bottom: 15px;
 }
 h5 {
     font-size: 28px;
@@ -129,9 +129,9 @@ h5 {
     padding-top: 15px;
 }
 .text1 {
-    float: left;
+    /* float: left; */
     padding-left: 20px;
-    padding-right: 40px;
+    /* padding-right: 40px; */
 }
 .hall {
     float: right;
@@ -146,6 +146,9 @@ h5 {
     float: right;
     padding-right: 35px;
     padding-bottom: 65px;
+    /* claustrophobia--fear of being in a close
+    space
+    IED(intermitted explosive disorder) */
 }
 h6 {
     font-size: 28px;
@@ -169,19 +172,71 @@ hr {
     border: 2px solid rgb(117, 91, 167);
     border-radius: 5px;
 }
-@media(max-width: 650px) {
-    .box {
-        width: 100%;
+
+.header {
+    display: flex;
+}    
+@media(max-width: 800px) {
+    .header {
         display: flex;
-        background-color: brown;
-    }
+    }  
+    h1 {
+        float: left;
+        font-family: cursive;
+        font-size: 30px;
+        padding-right: 5px;
+        padding-bottom: 50px;
+        padding-left: 30px;
+        padding-top: 43px;  
 }
-@media(max-width: 650px) {
-    .places {
-        width: 33.33%;
-        display: flex;
-        background-color: chartreuse;
-    }
+.places {
+    /* display: flex; */
+    /* background-color:yellow; */
+    /* flex-direction: column; */
+    
+}
+.box {
+    /* display: flex; */
+    float: left;
+    width: 33.33%;
+}
+.text1 {
+    /* float: left; */
+    padding-left: 20px;
+    padding-right: 0px;
+    margin-right: 0px;
+    /* width: 50%;
+    -----anger
+    -----mind
+    -----thought */
+}
+.text3 {
+    float: left;
+    padding-left: 25px;
+}
+.text2 {
+    float: left;
+    padding-left: 25px;
+}
+.castle {
+    float: right;
+    padding-right: 30px;
+    padding-bottom: 0px;
+}
+.row {
+    float: left;
+    width: 100%;
+}
+.text {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* float: left; */
+}
+.image {
+    width: 50%;
+    float: right;
+}
 }
 /* @media(max-width: 650) {
     .text {

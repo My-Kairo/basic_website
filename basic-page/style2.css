@@ -1,0 +1,255 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body, html {
+    width: 100%;
+    height: 100%;
+    background-color: lightsalmon;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.row::after {
+    clear: both;
+    content: "";
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
+}
+/* there is also align-items if align-contents not working */
+h1 {
+    padding: 20px;
+    padding-left: 20px;
+    font-family: cursive;
+}
+.myimage {
+    align-content: flex-end;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    /* if flex-end do not give expected results
+    then put flex-stretch */
+}
+.city {
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    align-content: center;
+    font-family: cursive;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.box-1 {
+    display: flex;
+    flex-direction: row;
+}
+.cityimage {
+    align-content: flex-start;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+p {
+    align-content: stretch;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.language {
+    display: flex;
+    flex-direction: column;
+}
+h3 {
+    align-content: flex-start;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.par1 {
+    align-content: flex-start;
+}
+table {
+    align-content: flex-start;
+}
+table, th, td {
+    border-collapse: 1px black;
+}
+table {
+    float: left;
+    width: 100%;
+    padding-bottom: 25px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+tr {
+    background-color: rgb(173, 193, 209);
+}
+th {
+    background-color: rgb(101, 125, 153);
+    height: 70px;
+}
+td {
+    text-align: center;
+}
+.places {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow: hidden;
+}
+.box {
+    /* display: inline-flex; */
+    align-self: stretch;
+    padding-left: 20px;
+    width: 33.33%;
+}
+h4 {
+    align-content: center;
+    font-family: cursive;
+}
+.text {
+    display: inline-flex; /*not forgeting there is (display: inline-flex) for text to be on the left side of the item bot inline*/
+    flex-direction: row;
+    align-self: stretch;
+}
+.text1 {
+    align-content: flex-start;
+    /* font-size: xx-small; */
+}
+.castle {
+    align-content: flex-end;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.text2 {
+    align-content: flex-start;
+    /* font-size: xx-small; */
+}
+.hall {
+    align-content: flex-end;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.text3 {
+    align-content: flex-start;
+    /* font-size: xx-small; */
+}
+.district {
+    align-content: flex-end;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+h4 {
+    padding-left: 50px;
+    padding-bottom: 15px;
+}
+h6 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: lightgrey;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50%;
+}
+@media(max-width: 850px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .myimage {
+        width: 50%;
+    }
+}
+@media(max-width: 550px) {
+    .box-1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media(max-width: 800px) {
+    .text {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding-right: 10px;
+    }
+    .places {
+        display: flex;
+        flex-direction: column;
+    }
+    .box {
+        width: 100%;
+    }
+    .text1 {
+        width: 50%;
+    }
+    .castle {
+        width: 50%;
+        padding-right: 10px;
+    }
+    .text2 {
+        width: 50%;
+    }
+    .hall {
+        width: 50%;
+        padding-right: 10px;
+    }
+    .text3 {
+        width: 50%;
+    }
+    .district {
+        width: 50%;
+        padding-right: 10px;
+    }
+}
+/* 
+@media (max-width: 650){
+    .places {
+        flex-direction: column;
+        display: flex;
+    }
+    .box {
+        align-self: flex-start;
+        display: flex;
+    }
+    .text {
+        display: inline-flex;
+    }
+    .text1 {
+    align-content: flex-start;
+}
+.castle {
+    align-content: flex-end;
+}
+.text2 {
+    align-content: flex-start;
+}
+.hall {
+    align-content: flex-end;
+}
+.text3 {
+    align-content: flex-start;
+}
+.district {
+    align-content: flex-end;
+}
+} */

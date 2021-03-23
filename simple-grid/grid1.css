@@ -24,3 +24,66 @@ td {
 h4, h5, h6 {
     text-align: center; 
 }
+.places {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.col-4 {
+    display: flex;
+    flex-direction: column;
+    /* width: 33.33%; */
+}
+.col-6 {
+    display: flex;
+    flex-direction: row;
+}
+.text1 {
+    /* display: flex; */
+    align-content: flex-start;
+}
+.castle {
+    display: flex;
+    align-content: flex-end;
+}
+.text2 {
+    /* display: flex; */
+    align-content: flex-start;
+}
+.hall {
+    display: flex;
+    align-content: flex-end;
+}
+.text3 {
+    /* display: flex; */
+    align-content: flex-start;
+}
+.district {
+    display: flex;
+    align-content: flex-end;
+}
+@media(max-width:800px) {
+    .places {
+        display: flex;
+        flex-direction: row;
+    }
+    .col-4 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .col-6 {
+        display: flex;
+        flex-direction: column;
+    }
+    .text1 .text2 .text3 {
+        display: flex;
+        width: 50%;
+        align-content: flex-start;
+    }
+    .castle .hall .district {
+        display: flex;
+        width: 50%;
+        align-content: flex-end;
+    }
+}
