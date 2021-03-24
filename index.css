@@ -8,6 +8,7 @@
 } */
 body {
     background-image: url("city.jpg");
+    /* background-color: rgb(185, 114, 126); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
