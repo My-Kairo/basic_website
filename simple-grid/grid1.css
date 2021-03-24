@@ -22,25 +22,61 @@ td {
     text-align: center;
 }
 h4, h5, h6 {
-    text-align: center; 
+    text-align: center;
 }
-.places {
+
+.images {
+    float: right;
+}
+.castle {
+    float: right;
+}
+h1 {
+    margin-left: 40%;
+}
+/* .col-4 {
+    display: flex;
+    flex-direction: column;
+} */
+
+
+/* @media(max-width: 45em) { */
+    /* .places {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    } */
+    /* .mid {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .col-5 {
+        display: flex;
+        align-content: flex-start;
+    }
+    .col-7 {
+        display: flex;
+        align-content: flex-end;
+        padding-right: 20px;
+    }
+} */
+
+/*.places {
     display: flex;
     flex-direction: row;
-    width: 100%;
-}
-.col-4 {
+/*.col-4 {
     display: flex;
     flex-direction: column;
     /* width: 33.33%; */
 }
-.col-6 {
+/* .col-6 {
     display: flex;
     flex-direction: row;
 }
 .text1 {
     /* display: flex; */
-    align-content: flex-start;
+    /*align-content: flex-start;
 }
 .castle {
     display: flex;
@@ -48,7 +84,7 @@ h4, h5, h6 {
 }
 .text2 {
     /* display: flex; */
-    align-content: flex-start;
+   /* align-content: flex-start;
 }
 .hall {
     display: flex;
@@ -56,7 +92,7 @@ h4, h5, h6 {
 }
 .text3 {
     /* display: flex; */
-    align-content: flex-start;
+   /* align-content: flex-start;
 }
 .district {
     display: flex;
@@ -86,4 +122,4 @@ h4, h5, h6 {
         width: 50%;
         align-content: flex-end;
     }
-}
+} */
